@@ -1,0 +1,62 @@
+@import url(reset.css);
+
+* {
+    color: aqua;
+}
+
+mark {
+    color: #ed4f86;
+}
+
+.text p {
+    color: grey;
+}
+
+li {
+    color: #70a0d1;
+}
+
+ol .orange {
+    color: #f74a11;
+}
+
+#hiroshima-p {
+    color: darkgreen;
+}
+
+.text .subheading {
+    color: #222a71;
+}
+
+div.serj * {
+    color: brown;
+}
+
+.text1.hits {
+    color: darkmagenta;
+}
+
+p.text2,
+p.text1breathe {
+    color: darkslateblue;
+}
+
+.text.woman > p {
+    color: coral;
+}
+
+.subtitle ~ p {
+    color: crimson;
+}
+
+.mylife + p {
+    color: cornflowerblue;
+}
+
+.text.contempt * {
+    color: darkorchid;
+}
+
+[class*="__umbrellas"] {
+    color: deeppink!important;
+}

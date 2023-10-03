@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Montserrat&display=swap');
+
+@import url(reset.css);
+
+.jewellery {
+    margin: 0 auto;
+    max-width: 1221px;
+    padding: 50px 15px;
+    margin-bottom: 30px;
+}
+
+.jewellery-text {
+    font-family: "Inter", sans-serif;
+    width: 563px;
+    display: inline-block;
+    margin-right: 38px;
+}
+
+.jewellery-subtitle-1 {
+    color: #D06B00;
+    font-size: 28px;
+    margin-bottom: 13px;
+}
+
+.jewellery-subtitle-2 {
+    color: #0E333D;
+    font-family: "DM Serif Text", serif;
+    font-size: 59px;
+    line-height: 1.47;
+    margin-bottom: 25px;
+}
+
+.jewellery-info {
+    color: #474747;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.jewellery-image-1 {
+    margin-right: 22px;
+}
+
+.consulting {
+    padding: 50px 15px;
+    max-width: 722px;
+    margin: 0 auto;
+    color: #7D7D7D;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.consulting-image-1 {
+    max-width: 100%;
+    margin-bottom: 37px;
+}
+
+[class*="consulting-subtitle"] {
+    color: #37393F;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 1.27;
+    font-size: 20px;
+}
+
+.consulting-subtitle-1 {
+    font-size: 30px;
+    margin-bottom: 12.5px;
+}
+
+.consulting-section-1 p {
+    line-height: 1.46;
+}
+
+.consulting-section-1 {
+    margin-bottom: 42px;
+}
+
+.consulting-subtitle-2 {
+    color: #6B77E5;
+    margin-bottom: 12px;
+}
+
+.consulting-section-2 p {
+    line-height: 1.46;
+}
+
+.consulting-section-2 {
+    margin-bottom: 40px;
+}
+
+.consulting-section-3 {
+    font-size: 0;
+}
+
+.consulting-image-2 {
+    width: 331px;
+    margin-right: 29px;
+}
+
+.consulting-sec-3-text {
+    display: inline-block;
+    width: 332px;
+    vertical-align: top;
+    font-size: 18px;
+}
+
+.consulting-subtitle-3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.consulting-subtitle-4 {
+    color: #40DDB6;
+    margin-bottom: 23px;
+}
+
+.consulting-list li {
+    margin-bottom: 35px;
+}
+
+.examples {
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.examples-title {
+    color: #6B77E5;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 1.27;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.example-1 {
+    background-color: #7D7D7D;
+    padding: 30px;
+    margin-bottom: 40px;
+    max-width: 500px;
+    min-width: 200px;
+}
+
+.example-2 {
+    background-color: #6B77E5;
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px 20px;
+    margin-bottom: 40px;
+}
+
+.example-3 {
+    background-color: #D06B00;
+    margin-bottom: 40px;
+    min-height: 100px;
+    padding: 10px 15px 20px 25px;
+    margin-left: 700px;
+}
+
+.example-4 {
+    background-color: darkgoldenrod;
+    padding: 15px;
+    max-width: 30%;
+    max-height: 200px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.example-5 {
+    background-color: darkcyan;
+    overflow: auto;
+    margin: 0 auto;
+    max-width: 500px;
+    max-height: 200px;
+    padding: 25px;
+    margin-bottom: 40px;
+}
+
+.example-6 {
+    background-color:lightskyblue;
+    display: inline-block;
+    padding: 25px;
+    width: 30%;
+    margin-right: 20px;
+} 
+
+.example-7 {
+    background-color: darkolivegreen;
+    display: inline-block;
+    padding: 25px;
+    width: 30%;
+    vertical-align: top;
+}
+
+.example-8 {
+    display: none;
+}

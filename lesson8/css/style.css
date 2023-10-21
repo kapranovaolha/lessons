@@ -1,0 +1,596 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,400,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,400,600,700&display=swap");
+
+@import url("fonts.css");
+
+@import url(reset.css);
+
+main {
+    margin-bottom: 50px;
+}
+
+header {
+    margin-bottom: 50px;
+    width: 100%;
+    height: 400px;
+    background: url(../img/pattern-space-objects-planets.jpg);
+}
+
+footer {
+    width: 100%;
+    height: 400px;
+    background: url(../img/pattern-space-objects-planets.jpg);
+}
+
+.footer-text {
+    font-family: "Core Sans C", sans-serif;
+    font-size: 25px;
+    font-weight: 750;
+    line-height: 1.47;
+    letter-spacing: 0.2px;
+    color: #FFF;
+    text-align: center;
+    padding-top: 150px;
+    background-color: #2e162ce3;
+    border: 10px ridge #7e60cd;
+    border-radius: 10%;
+    max-width: 30%;
+    margin: 0 auto;
+    height: 97.5%;
+}
+
+.footer-text:hover {
+    box-shadow: 10px 10px 5px 1px #7e60cd;
+}
+
+.footer-text a:hover {
+    color: #ffc20f;
+    text-shadow: #FC0 1px 0 10px;;
+}
+
+.menu {
+    font-family: "Core Sans C", sans-serif;
+    font-size: 25px;
+    font-weight: 750;
+    line-height: 1.47;
+    letter-spacing: 0.2px;
+    color: #FFF;
+    text-align: center;
+    background-color: #2e162ce3;
+    border: 10px ridge #7e60cd;
+    border-radius: 10%;
+    max-width: 30%;
+    margin: 0 auto;
+    height: 97.5%;
+}
+
+.menu:hover {
+    box-shadow: 10px 10px 5px 1px #7e60cd;
+}
+
+.menu-item-1 {
+    padding-top: 75px;
+}
+
+[class*="menu-item"] {
+    margin-bottom: 10px;
+}
+
+[class*="menu-item"]:hover {
+    color: #ffc20f;
+    text-shadow: #FC0 1px 0 10px;;
+}
+/********************************************************/
+
+.background-examples {
+    padding: 15px;
+    max-width: 1130px;
+    margin: 0 auto;
+}
+
+.background-examples h2 {
+    font-family: "Core Sans C", sans-serif;
+    font-size: 40px;
+    font-weight: 750;
+    line-height: 1.47;
+    letter-spacing: 0.2px;
+    margin-bottom: 30px;
+}
+
+.examples-text {
+    font-family: "Causten", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+[class*="example-"] {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 40px;
+    display: inline-block;
+    border: 10px solid #7f60cdcf;
+    border-radius: 15px;
+}
+
+[class*="example-"]:hover {
+    box-shadow: 2px 2px 10px 10px #7f60cdee;
+}
+
+.example-1 {
+    background-image: url(../img/space-pattern.jpeg);
+}
+
+.example-2 {
+    background: linear-gradient(0deg, rgba(230,106,182,1) 0%, rgba(10,20,96,1) 100%);
+}
+.example-3 {
+    background: radial-gradient(circle, rgba(255,117,70,1) 0%, rgba(231,105,180,1) 100%);
+}
+.example-4 {
+    background: url(../img/space-pattern-small.jpg);
+    background-repeat: no-repeat;
+}
+.example-5 {
+    background: url(../img/space-pattern-small.jpg);
+    background-repeat: repeat-x;
+}
+.example-6 {
+    background: url(../img/space-pattern-small.jpg);
+    background-repeat: repeat-y;
+}
+.example-7 {
+    background: url(../img/space-pattern-small.jpg);
+    background-repeat: space;
+}
+.example-8 {
+    background: url(../img/space-pattern-small.jpg);
+    background-repeat: round;
+}
+.example-9 {
+    background: url(../img/space-pattern-small.jpg) 50% no-repeat;
+}
+.example-10 {
+    background: url(../img/space-pattern-small.jpg) 0 50% no-repeat;
+}
+.example-11 {
+    background: url(../img/space-pattern-small.jpg) 100% 100% no-repeat;
+}
+.example-12 {
+    background: url(../img/space-pattern-small.jpg) 100px 50px no-repeat;
+}
+.example-13 {
+    background: url(../img/space-picture.avif) center no-repeat fixed;
+}
+.example-14 {
+    background: url(../img/space-pattern-small.jpg) center no-repeat local;
+    overflow: auto;
+}
+
+.example-14 p {
+    font-size: 40px;
+}
+.example-15 {
+    background: url(../img/space-picture.avif) 0 0/100% auto no-repeat;
+}
+.example-16 {
+    background: url(../img/space-picture.avif) 0 0/auto 100% no-repeat;
+}
+.example-17 {
+    background: url(../img/space-picture.avif) 0 0/100% 100% no-repeat;
+}
+.example-18 {
+    background: url(../img/space-picture.avif) 0 0/contain no-repeat;
+}
+.example-19 {
+    background: url(../img/space-picture.avif) 0 0/cover no-repeat;
+}
+.example-20 {
+    background: url(../img/space-picture.avif) 0 0/600px 300px no-repeat;
+}
+
+.example-21 {
+    height: 750px;
+    background: url(../img/little-rocket.png) 50% 25% no-repeat fixed, url(../img/little-astronaut-1.png) 25% 50% no-repeat fixed, url(../img/little-astronaut-2.png) 75% 50% no-repeat fixed, url(../img/night-sky-pattern-1.jpg);
+}
+
+.pages-border {
+    background: url(../img/ufo-image.png) repeat-x;
+    width: 100%;
+    height: 90px;
+    margin-bottom: 50px;
+}
+
+/********************************************************/
+.we-care {
+    max-width: 703px;
+    margin: 0 auto;
+    margin-bottom: 75px;
+    padding: 15px;
+    line-height: 1.2;
+    font-family: "Inter", sans-serif;
+    color: #7D7D7D;
+    font-size: 18px;
+}
+
+.we-care-subtitle-1-dec {
+    font-size: 0;
+    margin-bottom: 16px;
+}
+
+.we-care-subtitle-1-decoration {
+    width: 12px;
+    height: 12px;
+    background: #40DDB6;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 6px;
+}
+
+.we-care-subtitle-1 {
+    color: #37393F;
+    font-weight: 500;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.we-care-title {
+    color: #37393F;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 413px;
+    margin-bottom: 20px;
+}
+
+.we-care-text {
+    line-height: 1.46;
+    margin-bottom: 20px;
+}
+.we-care-text-p-1 {
+    margin-bottom: 15px;
+}
+
+.we-care-list {
+    color: #37393F;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 1.65;
+    margin-bottom: 43px;
+}
+
+.we-care-list-item-1 {
+    margin-bottom: 23px;
+}
+
+.we-care-list-item-1,
+.we-care-list-item-2 {
+    padding-left: 38px;
+    background-image: url("../img/checked-icon.svg");
+    background-repeat: no-repeat;
+}
+
+.we-care-column-1,
+.we-care-column-2 {
+    display: inline-block;
+    padding: 31px 32px 32px 92px;
+    border: 1px solid #E3E3E3;
+    background-repeat: no-repeat;
+}
+
+.we-care-column-1 {
+    margin-right: 21px;
+    background-image: url("../img/column-icon-1.svg");
+    background-position: 32px 31px;
+}
+
+.we-care-column-2{
+    background-image: url("../img/column-icon-2.svg");
+    background-position: 37px 31px;
+}
+
+.we-care-column-subtitle {
+    color: #37393F;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.we-care-column-text {
+    font-size: 16px;
+    line-height: 1.35;
+}
+
+.we-care-column-1-content {
+    max-width: 173px;
+}
+
+.we-care-column-2-content {
+    max-width: 164px;
+}
+
+.we-care-columns {
+    margin-bottom: 37px;
+}
+
+.we-care-button {
+    padding: 21px 27px 22px 27px;
+    background: #6B77E5;
+    max-width: 184px;
+    color: #FFF;
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.projects {
+    max-width: 1250px;
+    padding: 15px;
+    margin: 0 auto;
+    margin-bottom: 75px;
+    line-height: 1.2;
+    color: #37393F;
+}
+
+/********************************************************/
+
+.projects-text {
+    max-width: 852px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 47px;
+}
+
+.projects-subtitle-and-decoration {
+    font-size: 0;
+    margin-bottom: 14px;
+}
+
+.subtitle-decoration {
+    width: 12px;
+    height: 12px;
+    background: #40DDB6;
+    display: inline-block;
+    margin-right: 5px;
+    padding: 5px 0;
+}
+
+.projects-subtitle-1 {
+    display: inline-block;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.projects-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.projects-text p {
+    font-size: 18px;
+    color: #7D7D7D;
+    font-family: "Inter", sans-serif;
+    line-height: 1.46;
+}
+
+.projects-columns-block-1 {
+    margin-bottom: 58px;
+}
+
+[class*="projects-column-"] {
+    display: inline-block;
+    width: 380px;
+    font-size: 0;
+}
+
+.projects-column-1,
+.projects-column-2,
+.projects-column-4,
+.projects-column-5 {
+    margin-right: 34px;
+}
+
+[class*="projects-image"] {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.projects-image-1 {
+    background: url(../img/projects-image-1.png) center/cover no-repeat;
+}
+
+.projects-image-2 {
+    background: url(../img/projects-image-2.png) center/cover no-repeat;
+}
+
+.projects-image-3 {
+    background: url(../img/projects-image-3.png) center/cover no-repeat;
+}
+
+.projects-image-4 {
+    background: url(../img/projects-image-4.png) center/cover no-repeat;
+}
+
+.projects-image-5 {
+    background: url(../img/projects-image-5.png) center/cover no-repeat;
+}
+
+.projects-image-6 {
+    background: url(../img/projects-image-6.png) center/cover no-repeat;
+}
+
+.projects-subtitle-2 {
+    color: #37393F;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.27; 
+}
+
+.projects-date {
+    color: #7D7D7D;
+    font-family: "Inter", sans-serif;
+    line-height: 1.46;
+    display: inline-block;
+    font-size: 14px;
+    background: url(../img/calendar-icon.svg) no-repeat;
+    padding-left: 25px;
+}
+
+/********************************************************/
+
+.clothing {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+    margin-bottom: 50px;
+}
+
+.clothing-and-decoration {
+    margin-bottom: 30px;
+    font-size: 0;
+}
+
+.clothing-title-decoration {
+    width: 6px;
+    height: 28px;
+    border-radius: 10px;
+    background: #8A33FD;
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: top;
+}
+
+.clothing-title {
+    display: inline-block;
+    font-family: "Core Sans C", sans-serif;
+    color: #3C4242;
+    font-size: 28px;
+    font-weight: 650;
+    line-height: 33.5px;
+    letter-spacing: 0.56px;
+}
+
+[class*="clothing-subtitle"] {
+    color: #807D7E;
+    font-family: "Core Sans C", sans-serif;
+    font-size: 20px;
+    font-weight: 650;
+    line-height: 33.5px;
+    letter-spacing: 0.4px;
+    padding-left: 21px;
+}
+
+.clothing-subtitle-1 {
+    margin-bottom: 25px;
+}
+
+.clothing-text-1,
+.clothing-text-2 {
+    color: #807D7E;
+    font-family: "Causten", sans-serif;
+    font-size: 20px;
+    line-height: 33.5px;
+    letter-spacing: 0.4px;
+    padding-left: 21px;
+}
+
+span.clothing-span {
+    font-weight: 700;
+}
+
+.clothing-text-1-p-1 {
+    margin-bottom: 20px;
+}
+
+.clothing-text-1 {
+    margin-bottom: 25px;
+}
+
+.clothing-subtitle-2 {
+    margin-bottom: 25px;
+}
+
+.clothing-text-2-p-1 {
+    margin-bottom: 20px;
+}
+
+.clothing-text-2 {
+    margin-bottom: 20px;
+}
+
+/********************************************************/
+
+.fashion {
+    max-width: 1240px;
+    font-size: 0;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.fashion-block-1 {
+    width: 614px;
+    background: url(../img/fashion-image-1.png) no-repeat center / cover;
+    display: inline-block;
+    border-radius: 10px 0 0 10px;
+    height: 640px;
+    vertical-align: top;
+}
+
+.fashion-block-2 {
+    width: 626px;
+    background: url(../img/fashion-image-2.png) no-repeat center / cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 640px;
+    border-radius: 0 10px 10px 0;
+}
+
+.fashion-content {
+    color: #FFF;
+    display: inline-block;
+	padding: 165px 74px 175px;
+}
+
+.fashion-content h2 {
+    font-family: "Core Sans C", sans-serif;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: 750;
+    line-height: 1.47;
+    letter-spacing: 0.208px;
+    margin-bottom: 30px;
+}
+
+.fashion-text {
+    font-family: "Causten", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+.fashion-button {
+    width: 168px;
+    height: 46px;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 12px 44px;
+}
+
+.fashion-button a {
+    color: #3C4242;
+    text-align: center;
+    font-family: "Causten", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+}

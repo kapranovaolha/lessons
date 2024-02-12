@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+	<title>Lesson 15. Homework.</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__content">
+                    <div class="header__left">
+                        <a href="index.html" class="header__logo">
+                            <img src="img/header-logo.png" alt="logo">
+                        </a>
+                        <div class="header__search search">
+                            <a href="" class="search__icon">
+                                <img src="img/search.svg" alt="search icon">
+                            </a>
+                            <a href="#" class="search__text">Search</a>
+                        </div>
+                    </div>
+                    <div class="header__right">
+                        <div class="header__language language">
+                            <div class="language__selected">
+                                "English (United States)"
+                            </div>
+                            <ul class="language__list">
+                                <li class="language__item">
+                                    <a href="#">English (United Kingdom)</a>
+                                </li>
+                                <li class="language__item">
+                                    <a href="#">French</a>
+                                </li>
+                                <li class="language__item">
+                                    <a href="#">Ukrainian</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="header__buttons">
+                            <a href="#" class="header__button header__button--violet-bg">Login</a>
+                            <a href="#" class="header__button">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main__container">
+                <div class="practice">
+                    <h2>Властивості FLEX - контейнера</h2>
+                    <h3>1. Властивість display зі значеннями flex/inline-flex:</h3>
+                    <div class="display example">
+                        <h4>- display: flex;</h4>
+                        <div class="display__flex example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                        <h4>- display: inline-flex;</h4>
+                        <div class="display__inline-flex example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                    </div>
+                    <h3>2. Властивість flex-wrap:</h3>
+                    <div class="flex-wrap example">
+                        <h4>- wrap</h4>
+                        <div class="flex-wrap__wrap example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                        <h4>- wrap-reverse</h4>
+                        <div class="flex-wrap__wrap-reverse example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                    </div>
+                    <h3>3. Властивість flex-direction:</h3>
+                    <div class="flex-direction example">
+                        <h4>- row (за замовчуванням)</h4>
+                        <div class="flex-direction__row example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                        <h4>- row-reverse</h4>
+                        <div class="flex-direction__row-reverse example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                        <h4>- column</h4>
+                        <div class="flex-direction__column example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                        <h4>- column-reverse</h4>
+                        <div class="flex-direction__column-reverse example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                    </div>
+                    <h3>4. Властивість justify-content:</h3>
+                    <div class="justify-content example">
+                        <h4>- flex-start (за замовчуванням)</h4>
+                        <div class="justify-content__flex-start example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                        <h4>- flex-end</h4>
+                        <div class="justify-content__flex-end example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                        <h4>- center</h4>
+                        <div class="justify-content__center example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                        <h4>- space-between</h4>
+                        <div class="justify-content__space-between example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                        <h4>- space-around</h4>
+                        <div class="justify-content__space-around example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                        <h4>- space-evenly</h4>
+                        <div class="justify-content__space-evenly example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                    </div>
+                    <h3>5. Властивість align-items:</h3>
+                    <div class="align-items example">
+                        <h4>- stretch (за замовчуванням)</h4>
+                        <div class="align-items__stretch example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                        <h4>- flex-start</h4>
+                        <div class="align-items__flex-start example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                        <h4>- flex-end</h4>
+                        <div class="align-items__flex-end example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                        <h4>- center</h4>
+                        <div class="align-items__center example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                        <h4>- baseline</h4>
+                        <div class="align-items__baseline example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                    </div>
+                    <h2>Властивості FLEX - елементів</h2>
+                    <h3>1. Властивість order:</h3>
+                    <div class="order example">
+                        <h4>- за замовчуванням</h4>
+                        <div class="order__default example-container">
+                            <div class="example-item order__item-1-default">1</div>
+                            <div class="example-item order__item-2-default">2</div>
+                            <div class="example-item order__item-3-default">3</div>
+                            <div class="example-item order__item-4-default">4</div>
+                        </div>
+                        <h4>- вказаний конкретний порядок розміщення елементів</h4>
+                        <div class="order__example example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                    </div>
+                    <h3>2. Властивість align-self:</h3>
+                    <div class="align-self example">
+                        <h4>- auto (за замовчуванням)</h4>
+                        <div class="align-self__auto example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                        <h4>- flex-start</h4>
+                        <div class="align-self__flex-start example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                        <h4>- flex-end</h4>
+                        <div class="align-self__flex-end example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                        <h4>- center</h4>
+                        <div class="align-self__center example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                    </div>
+                    <h3>3. Властивість flex-basis:</h3>
+                    <div class="flex-basis example">
+                        <h4>- auto (за замовчуванням)</h4>
+                        <div class="flex-basis__auto example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                        <h4>- значення в пікселях</h4>
+                        <div class="flex-basis__pixels example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                        <h4>- значення у відсотках</h4>
+                        <div class="flex-basis__percents example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                    </div>
+                    <h3>4. Властивість flex-grow:</h3>
+                    <div class="flex-grow example">
+                        <h4>- 0 - заборонено (за замовчуванням)</h4>
+                        <div class="flex-grow__not-allowed example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                        <h4>- 1 - дозволено</h4>
+                        <div class="flex-grow__allowed example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                    </div>
+                    <h3>5. Властивість flex-shrink:</h3>
+                    <div class="flex-shrink example">
+                        <h4>- 0 - заборонено (за замовчуванням)</h4>
+                        <div class="flex-shrink__not-allowed example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                        <h4>- 1 - дозволено</h4>
+                        <div class="flex-shrink__allowed example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                        
+                    </div>
+                    <h3>6. Властивість flex. Скорочений запис для flex-grow, flex-shrink та flex-basis (рекомендується):</h3>
+                    <div class="flex-general example">
+                        <h4>- за замовчуванням</h4>
+                        <div class="flex-general__default example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                        <h4>- приклад №1 (Flex-елемент може збільшуватись, може зменшуватись. Базовий розмір автоматичний)</h4>
+                        <div class="flex-general__example-1 example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                        <h4>- приклад №2 (Flex-елемент не може збільшуватись, не може зменшуватись. Базовий розмір 200px)</h4>
+                        <div class="flex-general__example-2 example-container">
+                            <div class="example-item">1</div>
+                            <div class="example-item">2</div>
+                            <div class="example-item">3</div>
+                            <div class="example-item">4</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="categories">
+                    <div class="categories__container">
+                        <h2 class="categories__title">Categories For Men</h2>
+                        <div class="product">
+                            <div class="product__card">
+                                <a class="product__image" href="#">
+                                    <img src="img/categories-1.webp" alt="product image">
+                                </a>
+                                <div class="product__discription">
+                                    <div class="product__text">
+                                        <h4 class="product__name">
+                                            <a href="#">Shirts</a>
+                                        </h4>
+                                        <p>
+                                            <a href="#">Explore Now!</a>
+                                        </p>
+                                    </div>
+                                    <a class="product__link" href="#"></a>
+                                </div>
+                            </div>
+                            <div class="product__card">
+                                <a class="product__image" href="#">
+                                    <img src="img/categories-2.webp" alt="product image">
+                                </a>
+                                <div class="product__discription">
+                                    <div class="product__text">
+                                        <h4 class="product__name">
+                                            <a href="#">Printed T-Shirts</a>
+                                        </h4>
+                                        <p>
+                                            <a href="#">Explore Now!</a>
+                                        </p>
+                                    </div>
+                                    <a class="product__link" href="#"></a>
+                                </div>
+                            </div>
+                            <div class="product__card">
+                                <a class="product__image" href="#">
+                                    <img src="img/categories-3.webp" alt="product image">
+                                </a>
+                                <div class="product__discription">
+                                    <div class="product__text">
+                                        <h4 class="product__name">
+                                            <a href="#">Plain T-Shirt</a>
+                                        </h4>
+                                        <p>
+                                            <a href="#">Explore Now!</a>
+                                        </p>
+                                    </div>
+                                    <a class="product__link" href="#"></a>
+                                </div>
+                            </div>
+                            <div class="product__card">
+                                <a class="product__image" href="#">
+                                    <img src="img/categories-4.webp" alt="product image">
+                                </a>
+                                <div class="product__discription">
+                                    <div class="product__text">
+                                        <h4 class="product__name">
+                                            <a href="#">Polo T-Shirt</a>
+                                        </h4>
+                                        <p>
+                                            <a href="#">Explore Now!</a>
+                                        </p>
+                                    </div>
+                                    <a class="product__link" href="#"></a>
+                                </div>
+                            </div>
+                            <div class="product__card">
+                                <a class="product__image" href="#">
+                                    <img src="img/categories-5.webp" alt="product image">
+                                </a>
+                                <div class="product__discription">
+                                    <div class="product__text">
+                                        <h4 class="product__name">
+                                            <a href="#">Hoodies & Sweetshirt</a>
+                                        </h4>
+                                        <p>
+                                            <a href="#">Explore Now!</a>
+                                        </p>
+                                    </div>
+                                    <a class="product__link" href="#"></a>
+                                </div>
+                            </div>
+                            <div class="product__card">
+                                <a class="product__image" href="#">
+                                    <img src="img/categories-6.webp" alt="product image">
+                                </a>
+                                <div class="product__discription">
+                                    <div class="product__text">
+                                        <h4 class="product__name">
+                                            <a href="#">Jeans</a>
+                                        </h4>
+                                        <p>
+                                            <a href="#">Explore Now!</a>
+                                        </p>
+                                    </div>
+                                    <a class="product__link" href="#"></a>
+                                </div>
+                            </div>
+                            <div class="product__card">
+                                <a class="product__image" href="#">
+                                    <img src="img/categories-7.webp" alt="product image">
+                                </a>
+                                <div class="product__discription">
+                                    <div class="product__text">
+                                        <h4 class="product__name">
+                                            <a href="#">Activewear</a>
+                                        </h4>
+                                        <p>
+                                            <a href="#">Explore Now!</a>
+                                        </p>
+                                    </div>
+                                    <a class="product__link" href="#"></a>
+                                </div>
+                            </div>
+                            <div class="product__card">
+                                <a class="product__image" href="#">
+                                    <img src="img/categories-8.webp" alt="product image">
+                                </a>
+                                <div class="product__discription">
+                                    <div class="product__text">
+                                        <h4 class="product__name">
+                                            <a href="#">Boxers</a>
+                                        </h4>
+                                        <p>
+                                            <a href="#">Explore Now!</a>
+                                        </p>
+                                    </div>
+                                    <a class="product__link" href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wishlist">
+                    <div class="wishlist__container">
+                        <h2 class="wishlist__title">Wishlist</h2>
+                        <div class="wishlist__items product">
+                            <div class="product__row">
+                                <div class="product__left">
+                                    <a href="#" class="product__delete">
+                                        <img src="img/close-cross.svg" alt="close">
+                                    </a>
+                                    <a href="#" class="product__image">
+                                        <img src="img/wishlist-image-1.webp" alt="product image">
+                                    </a>
+                                    <div class="product__info">
+                                        <h3 class="product__title">
+                                            <a href="#">Blue Flower Print Crop Top</a>
+                                        </h3>
+                                        <h4 class="product__color">Color : <span class="product__grey-text">Yellow</span></h4>
+                                        <h4 class="product__quantity">Quantity : <span class="product__grey-text">1</span></h4>
+                                    </div>
+                                </div>
+                                <div class="product__right">
+                                    <div class="product__price product__grey-text product__grey-text--bold">$29.00</div>
+                                    <a href="#" class="product__button">Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="product__row">
+                                <div class="product__left">
+                                    <a href="#" class="product__delete">
+                                        <img src="img/close-cross.svg" alt="close">
+                                    </a>
+                                    <a href="#" class="product__image">
+                                        <img src="img/wishlist-image-2.webp" alt="product image">
+                                    </a>
+                                    <div class="product__info">
+                                        <h3 class="product__title">
+                                            <a href="#">Yellow Flower Print Dress</a>
+                                        </h3>
+                                        <h4 class="product__color">Color : <span class="product__grey-text">Yellow</span></h4>
+                                        <h4 class="product__quantity">Quantity : <span class="product__grey-text">1</span></h4>
+                                    </div>
+                                </div>
+                                <div class="product__right">
+                                    <div class="product__price product__grey-text product__grey-text--bold">$78.00</div>
+                                    <a href="#" class="product__button">Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="product__row">
+                                <div class="product__left">
+                                    <a href="#" class="product__delete">
+                                        <img src="img/close-cross.svg" alt="close">
+                                    </a>
+                                    <a href="#" class="product__image">
+                                        <img src="img/wishlist-image-3.webp" alt="product image">
+                                    </a>
+                                    <div class="product__info">
+                                        <h3 class="product__title">
+                                            <a href="#">White Hoodie long sleeve</a>
+                                        </h3>
+                                        <h4 class="product__color">Color : <span class="product__grey-text">White</span></h4>
+                                        <h4 class="product__quantity">Quantity : <span class="product__grey-text">1</span></h4>
+                                    </div>
+                                </div>
+                                <div class="product__right">
+                                    <div class="product__price product__grey-text product__grey-text--bold">$134.00</div>
+                                    <a href="#" class="product__button">Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="product__row">
+                                <div class="product__left">
+                                    <a href="#" class="product__delete">
+                                        <img src="img/close-cross.svg" alt="close">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/wishlist-image-4.webp" alt="" class="product__image">
+                                    </a>
+                                    <div class="product__info">
+                                        <h3 class="product__title">
+                                            <a href="#">Brown men’s long sleeve T-shirt</a>
+                                        </h3>
+                                        <h4 class="product__color">Color : <span class="product__grey-text">Brown</span></h4>
+                                        <h4 class="product__quantity">Quantity : <span class="product__grey-text">1</span></h4>
+                                    </div>
+                                </div>
+                                <div class="product__right">
+                                    <div class="product__price product__grey-text product__grey-text--bold">$93.00</div>
+                                    <a href="#" class="product__button">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="orders">
+                    <div class="orders__container">
+                        <div class="order">
+                            <div class="order__info">
+                                <div class="order__left">
+                                    <h2 class="order__number">Order no : #123456789</h2>
+                                    <h4 class="order__date">Order Date : <span class="order__grey-text">2 June 2023 2:40 PM</span></h4>
+                                    <h4 class="order__delivery-date">Estimated Delivery Date : <span class="order__grey-text">8 June 2023</span></h4>
+                                </div>
+                                <div class="order__right">
+                                    <h4 class="order__status">Order Status : <span class="order__grey-text">Inprogress</span></h4>
+                                    <h4 class="order__payment">Payment Method : <span class="order__grey-text">Cash on delivery</span></h4>
+                                </div>
+                            </div>
+                            <div class="order__product info-product">
+                                <div class="info-product__left">
+                                    <a href="#">
+                                        <img src="img/order-image-1.webp" alt="product image">
+                                    </a>
+                                    <div class="info-product__description">
+                                        <h3> <a href="#">Black Printed T-shirt</a></h3>
+                                        <h4>Colour : <span class="order__grey-text"> Pink</span></h4>
+                                        <h4>Qty : <span class="order__grey-text">1</span></h4>
+                                        <h4><span class="order__grey-text order__grey-text--dark">Total : $23.00</span></h4>
+                                    </div>
+                                </div>
+                                <div class="info-product__right">
+                                    <a href="#" class="info-product__button">View Detail</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="order">
+                            <div class="order__info">
+                                <div class="order__left">
+                                    <h2 class="order__number">Order no : #123456789</h2>
+                                    <h4 class="order__date">Order Date : <span class="order__grey-text">2 June 2023 2:40 PM</span></h4>
+                                    <h4 class="order__delivery-date">Estimated Delivery Date : <span class="order__grey-text">8 June 2023</span></h4>
+                                </div>
+                                <div class="order__right">
+                                    <h4 class="order__status">Order Status : <span class="order__grey-text">Inprogress</span></h4>
+                                    <h4 class="order__payment">Payment Method : <span class="order__grey-text">Cash on delivery</span></h4>
+                                </div>
+                            </div>
+                            <div class="order__product info-product">
+                                <div class="info-product__left">
+                                    <a href="#">
+                                        <img src="img/order-image-2.webp" alt="product image">
+                                    </a>
+                                    <div class="info-product__description">
+                                        <h3> <a href="#">Printed blue & white Cote</a></h3>
+                                        <h4>Colour : <span class="order__grey-text"> White</span></h4>
+                                        <h4>Qty : <span class="order__grey-text">1</span></h4>
+                                        <h4><span class="order__grey-text order__grey-text--dark">Total : $143.00</span></h4>
+                                    </div>
+                                </div>
+                                <div class="info-product__right">
+                                    <a href="#" class="info-product__button">View Detail</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="order">
+                            <div class="order__info">
+                                <div class="order__left">
+                                    <h2 class="order__number">Order no : #123456789</h2>
+                                    <h4 class="order__date">Order Date : <span class="order__grey-text">2 June 2023 2:40 PM</span></h4>
+                                    <h4 class="order__delivery-date">Estimated Delivery Date : <span class="order__grey-text">8 June 2023</span></h4>
+                                </div>
+                                <div class="order__right">
+                                    <h4 class="order__status">Order Status : <span class="order__grey-text">Inprogress</span></h4>
+                                    <h4 class="order__payment">Payment Method : <span class="order__grey-text">Cash on delivery</span></h4>
+                                </div>
+                            </div>
+                            <div class="order__product info-product">
+                                <div class="info-product__left">
+                                    <a href="#">
+                                        <img src="img/order-image-3.webp" alt="product image">
+                                    </a>
+                                    <div class="info-product__description">
+                                        <h3> <a href="#">Blue Shirt</a></h3>
+                                        <h4>Colour : <span class="order__grey-text"> Blue</span></h4>
+                                        <h4>Qty : <span class="order__grey-text">1</span></h4>
+                                        <h4><span class="order__grey-text order__grey-text--dark">Total : $93.00</span></h4>
+                                    </div>
+                                </div>
+                                <div class="info-product__right">
+                                    <a href="#" class="info-product__button">View Detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+        </footer>
+    </div>
+</body>
